@@ -1,0 +1,6 @@
+:root{
+    --amber-500:#f59e0b;
+}
+.text-amber-500{
+    color:var(--amber-500)
+}

@@ -1,0 +1,56 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family:Arial, sans-serif;
+    font-size:17px;
+    color: #926239;
+    line-height: 1.6;
+}
+
+#showcase{
+        background-image: url("https://images.pexels.com/photos/414029/pexels-photo-414029.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+        height:100vh;
+        background-position: center;
+        background-size: cover;
+        display:cover;
+        display: flex;
+        flex-direction:column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 0 20px;
+        background-color: hsla(0, 0, 98, 0.6);
+}
+#showcase h1{
+    font-size:50px;
+}
+#showcase p{
+    font-size: 20px;
+}
+#showcase .button{
+    font-size: 18px;
+    text-decoration: none;
+    color: #926239;
+    border:#926239 1px solid;
+    padding: 10px 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+#showcase.button:hover{
+    background:#926239;
+    color:#fff;
+
+
+}
+section#list-monument img {
+    width: 35rem;
+    height: 14rem;
+}
+section#list-monument{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+}
